@@ -26,7 +26,7 @@ header {
 .wrap-center {
   color: white;
   text-align: center;
-  padding-top: 280px;
+  padding-top: 270px;
   z-index: 99;
 }
 
@@ -64,4 +64,25 @@ header a {
   padding: 16px 32px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  header h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  header h1 {
+    font-size: 50px;
+    line-height: 100px;
+  }
+
+  header p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  header a {
+    font-size: 12px;
+  }
 }
