@@ -1,3 +1,12 @@
+body {
+  background: url("/media/bg.png");
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  max-width: 1512px;
+  width: 100%;
+}
+
 h1 {
   font-family: Poppins;
   font-size: 24px;
