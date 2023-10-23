@@ -9,10 +9,10 @@ body {
   margin: 0;
 }
 
-header {
+.section {
+  display: block;
   margin: 0 auto;
   max-width: 1400px;
-  width: 100%;
 }
 
 .wrap-center {
@@ -65,10 +65,44 @@ header a {
   text-transform: uppercase;
 }
 
-footer {
-  display: block;
-  margin: 0 auto;
+section {
+  background: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 64px;
   max-width: 1400px;
+  padding: 100px;
+}
+
+.grid .image {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin: 0;
+  opacity: 30%;
+  text-transform: uppercase;
+}
+
+section h2 {
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+section p {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 70%;
 }
 
 .boxes {
@@ -133,6 +167,7 @@ li a {
     font-size: 12px;
   }
 
+  .grid,
   .boxes {
     grid-template-columns: 1fr;
     padding: 50px 30px;
