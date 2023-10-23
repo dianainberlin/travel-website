@@ -108,7 +108,7 @@ li a {
   line-height: 1.5;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header h2 {
     font-size: 18px;
     line-height: 24px;
@@ -126,5 +126,10 @@ li a {
 
   header a {
     font-size: 12px;
+  }
+
+  .boxes {
+    grid-template-columns: 1fr;
+    padding: 50px 30px;
   }
 }
