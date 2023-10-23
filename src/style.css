@@ -73,10 +73,13 @@ footer {
 
 .boxes {
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rgba(39, 32, 68, 0.95),
+      rgba(39, 32, 68, 0.95)
     ),
     url("/media/lisbon-footer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 60px;
