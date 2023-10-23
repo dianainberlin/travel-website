@@ -65,6 +65,49 @@ header a {
   text-transform: uppercase;
 }
 
+footer {
+  display: block;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.boxes {
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("/media/lisbon-footer.png");
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 60px;
+  padding: 100px;
+}
+
+.box {
+  color: white;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+li a {
+  color: #f5f5f5;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.box p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 @media (max-width: 900px) {
   header h2 {
     font-size: 18px;
