@@ -3,12 +3,19 @@
 }
 
 body {
+  background-color: var(--text-color);
   color: 272044;
   font-family: "Poppins";
   margin: 0;
 }
 
 header {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.wrap-center {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.6),
       rgba(39, 32, 68, 0.6)
@@ -17,17 +24,9 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0 auto;
-  height: 900px;
-  max-width: 1512px;
-  width: 100%;
-}
-
-.wrap-center {
   color: white;
   text-align: center;
-  padding-top: 270px;
-  z-index: 99;
+  padding: 200px 0;
 }
 
 header h2 {
