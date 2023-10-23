@@ -65,7 +65,7 @@ header a {
   text-transform: uppercase;
 }
 
-section {
+main {
   background: white;
 }
 
@@ -78,8 +78,7 @@ section {
 }
 
 .grid .image {
-  display: flex;
-  justify-content: center;
+  max-width: 100%;
 }
 
 h3 {
@@ -92,13 +91,13 @@ h3 {
   text-transform: uppercase;
 }
 
-section h2 {
+main h2 {
   font-size: 40px;
   line-height: 1.5;
   margin: 0;
 }
 
-section p {
+main p {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
