@@ -1,5 +1,6 @@
 :root {
   --text-color: #272044;
+  --accent-color: #462cb3;
 }
 
 body {
@@ -51,10 +52,7 @@ header p {
   margin-top: 0;
 }
 
-header a {
-  background: white;
-  border: 0.5px solid var(--text-color);
-  color: var(--text-color);
+.button {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -62,6 +60,12 @@ header a {
   padding: 16px 32px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+header .button {
+  background: white;
+  border: 0.5px solid var(--text-color);
+  color: var(--text-color);
 }
 
 main {
@@ -126,6 +130,31 @@ body {
 .card {
   background: white;
   padding-bottom: 30px;
+}
+
+.card-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-content {
+  padding: 0 30px;
+}
+
+.card-content p {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+.card .button {
+  background: var(--accent-color);
+  border: 0.5px solid var(--accent-color);
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .grid-3-col {
