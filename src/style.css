@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: var(--text-color);
+  background-color: #f5f5f5;
   color: 272044;
   font-family: "Poppins";
   margin: 0;
@@ -111,10 +111,6 @@ main {
   font-size: 16px;
   line-height: 1.5;
   opacity: 70%;
-}
-
-body {
-  background: #f5f5f5;
 }
 
 .wrap-title {
