@@ -182,7 +182,8 @@ ul {
   list-style: none;
 }
 
-li a {
+li a,
+footer a {
   color: #f5f5f5;
   opacity: 70%;
   font-size: 16px;
